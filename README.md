@@ -15,3 +15,12 @@ I have included an example case which uses the Mouse_X4 button to control the st
 ### Disclaimer
 
 I see myself as a beginner and I learned a lot by making a couple projects. I hope that this template serves you well. Please don't blame me if your Arduino gets fried (this code will definitely not fry your Arduino).
+
+# Python Requirements
+
+- pywin32
+- pySerial
+
+# Arduino Requirements
+
+- All libraries should be included in the official installation package for their IDE provided by Arduino.
