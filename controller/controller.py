@@ -5,9 +5,9 @@ from time import sleep
 
 '''
   Library Breakdown:
-    win32api -> Used to get user input via keystrokes
+    win32api -> Used for detecting user's keystrokes to send flags to the arduino
     serial --> Used to establish a serial communication with the mcu and send/receive data
-    time.sleep --> Used to set up delays
+    time.sleep --> Used for delays
 '''
 
 # ----------- Setup -----------
@@ -25,13 +25,19 @@ sleep(1)
 
 run = True
 while run:
+  # END key | Terminate script and send DISABLE flag to board
   if win32api.GetAsyncKeyState(0x23):
     run = False
     mcu.write(b'0')
     sleep(1)
   
+  # Mouse4 | Send ENABLE flag to board
   if win32api.GetAsyncKeyState(0x05):
     mcu.write(b'1')
     sleep(1)
 
-  mcu.write(b'0')
+  # Always DISABLE when there is no button pressed
+  else:
+    mcu.write(b'0')
+
+# ----------------------------------

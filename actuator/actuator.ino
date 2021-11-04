@@ -1,5 +1,3 @@
-const int ledPin = 3;
-
 void setup() {
   // Begin Serial comms and clear buffer
   Serial.begin(9600);
@@ -7,6 +5,8 @@ void setup() {
 }
 
 void loop() {
+  const int ledPin = 3;
+
   // Check if there is incoming data, only do something if there is
   if (Serial.available() > 0)
   {
