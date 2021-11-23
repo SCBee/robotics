@@ -60,6 +60,7 @@ void loop() {
       digitalWrite(pinky, LOW);
     }
 
-    delay(50);
+    // Slow down updates. Decrease the value for quicker blinks.
+    delay(200);
   }
 }

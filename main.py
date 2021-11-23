@@ -51,14 +51,19 @@ def main():
         # Disable all fingers
         mcu.write(b'0')
 
+        # Calculate framerate
         cTime = time.time()
         fps = 1 / (cTime - pTime)
         pTime = cTime
 
+        # Draw framerate on video window
         cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3,
                     (255, 0, 255), 3)
 
+        # Render video
         cv2.imshow("Image", img)
+
+        # Delay
         cv2.waitKey(1)
 
 
