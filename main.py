@@ -4,7 +4,6 @@ import time
 from hand_tracker import handDetector
 
 # Controller
-import win32api
 import serial
 from time import sleep
 
