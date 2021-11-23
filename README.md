@@ -1,6 +1,8 @@
 # hand-tracking-arduino
 
-This is a small little project that incorporates something I learned recently. I have been exploring computer vision with Python and Arduino and it's grown to become one of my favorite topics because of how interactive it is!
+This is a small little project that incorporates ML and Arduino. I have been exploring computer vision with Python and Arduino and it's grown to become one of my favorite topics because of how interactive it is!
+
+Recently, a couple of my friends have started programming and they wanted to do a project similar to those floating around on social media of controlling robots using hand gestures. Helping them inspired this project that I hope to give them and others a simple base-of-sorts to kickstart their projects!
 
 ### Functionality
 
