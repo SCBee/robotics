@@ -20,3 +20,9 @@ serial (communicating with the arduino)
 ### Extra notes
 
 I loved this project because of how simple it is from an electrical perspective, while still allowing myself to explore a lot! I hope that those that are reading this can try and play around with it. The LED pins are 3, 4, 5, and 6, so if you do set it up, make sure to connect to those or modify the variables in the .ino file.
+
+### DEMO
+
+![Hand View](https://github.com/SCBee/hand-tracking-arduino/blob/main/Demo/HAND_View.gif)
+
+![PC View](https://github.com/SCBee/hand-tracking-arduino/blob/main/Demo/PC_View.gif)
