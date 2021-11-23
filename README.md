@@ -23,6 +23,8 @@ I loved this project because of how simple it is from an electrical perspective,
 
 ### DEMO
 
+(These two videos happen concurrently)
+
 ![Hand View](https://github.com/SCBee/hand-tracking-arduino/blob/main/Demo/HAND_View.gif)
 
 ![PC View](https://github.com/SCBee/hand-tracking-arduino/blob/main/Demo/PC_View.gif)
