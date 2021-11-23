@@ -4,7 +4,7 @@ This is a small little project that incorporates something I learned recently. I
 
 ### Functionality
 
-This code will read data from a webcam and then determine the number of fingers that are extended (or closed, depending on the orientation of your camera with your hand), and then rapidly blink leds connected to the arduino.
+This code will read data from a webcam and then determine which finger(s) are extended (or closed, depending on the orientation of your camera with your hand), and then rapidly blink leds connected to the arduino. Each LED corresponds to a specific finger.
 
 ### Requirements
 
