@@ -1,0 +1,3 @@
+# Ignore personal settings
+.vscode/
+__pycache__/
